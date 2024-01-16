@@ -2198,31 +2198,9 @@
         }
       });
     </script>
-    <section data-bs-version="5.1" class="social2 cid-tosqkg3dCz" id="share2-b">
-      <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0)"></div>
-
-      <div class="container">
-        <div class="media-container-row">
-          <div class="col-12">
-            <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">Share this Page!</h3>
-            <div>
-              <div class="mbr-social-likes" data-counters="false">
-                <a class="iconfont-wrapper bg-facebook m-2 btn-social" target="_blank" href="javascript:void(0)" onclick="fbShare('//neramac.com/')">
-                  <span class="socicon-facebook socicon" style="font-size: 25px"></span>
-                </a>
-
-                <a class="iconfont-wrapper bg-twitter m-2 btn-social" target="_blank" href="javascript:void(0)" onclick="twitterShare('//neramac.com/')">
-                  <span class="socicon-twitter socicon" style="font-size: 25px"></span>
-                </a>
-
-                <a class="iconfont-wrapper bg-odnoklassniki m-2 btn-social" target="_blank" href="javascript:void(0)" onclick="whatsappShare('//neramac.com/')">
-                  <span class="socicon-whatsapp socicon" style="font-size: 25px"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section>
+      <img class="coming-soon-web" src="https://floww0.blob.core.windows.net/consoleupload/KIEMDfbSvg3yfSwd/hr/tasks/tas-hXzXAW-task-attachment.png" alt="" srcset="" />
+      <img class="coming-soon-mob" src="https://floww0.blob.core.windows.net/consoleupload/KIEMDfbSvg3yfSwd/hr/tasks/tas-3rhCdw-task-attachment.png" alt="" />
     </section>
     <section data-bs-version="5.1" class="footer1 expertm5 cid-tosk9zLKVh" once="footers" id="afooter1-9">
       <div class="container">
@@ -2263,6 +2241,17 @@
     <script src="https://neramac.com/assets/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://neramac.com/assets/geek/geek.js?v=1705390390"></script>
     <script src="https://neramac.com/assets/geek/script.js?v=1705390390"></script>
+
+    <script>
+      //hide the class="coming-soon-mob" in web view and class="coming-soon-web" in mobile view
+      $(document).ready(function () {
+        if ($(window).width() < 768) {
+          $(".coming-soon-web").hide();
+        } else {
+          $(".coming-soon-mob").hide();
+        }
+      });
+    </script>
 
     <script type="text/javascript">
       function googleTranslateElementInit() {
